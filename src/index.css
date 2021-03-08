@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,8 +14,10 @@ code {
 }
 .Home{
     margin:auto;
-    background-color: blue;
+    border: 1px solid black;
     height:896px;
     width:414px;
-    
+    background-image: url('./back.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
 }

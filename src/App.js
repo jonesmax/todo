@@ -43,7 +43,7 @@ function NewNoteButton() {
 
 function Notes() {
     const { Frame, sync, configureFrame } = useEasybase();
-    console.log("hi");
+
     useEffect(() => {
       configureFrame({ tableName: "TODOS", limit: 10 });
       sync();
