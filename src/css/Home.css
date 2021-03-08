@@ -5,13 +5,13 @@
 }
 .head{
     background-color: aliceblue;
-    opacity: 90%;
+   
     padding:20px;
     margin: 20px;
    
 }
 .chores{
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255);
     padding:10px;
 
     
