@@ -11,6 +11,7 @@ function Home() {
       <div className="App">
         <EasybaseProvider ebconfig={ebconfig}>
             <Notes />
+            <NewNoteButton />
         </EasybaseProvider>
       </div>
     );
@@ -41,10 +42,7 @@ function NewNoteButton() {
     const { Frame, sync } = useEasybase();
   
     const buttonStyle = {
-      position: "absolute",
-      left: 10,
-      top: 10,
-      fontSize: 21
+      
     }
 
     const handleClick = () => {
